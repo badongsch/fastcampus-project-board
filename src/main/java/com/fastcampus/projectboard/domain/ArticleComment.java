@@ -1,0 +1,14 @@
+package com.fastcampus.projectboard.domain;
+
+import java.time.LocalDateTime;
+
+public class ArticleComment {
+    private Long id;
+    private Article article;
+    private String content; // 내용
+
+    private LocalDateTime createAt; // 생성일시
+    private String  createdBy;      // 생성자
+    private LocalDateTime ModifiedAt;   // 수정일시
+    private String  modifiedBy;         // 수정자
+}
